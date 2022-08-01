@@ -1,0 +1,45 @@
+.app-component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    color: white;
+}
+
+.todo-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.todo-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.add-todo-item-btn {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border-style: none;
+    background: #ab9c39;
+    box-shadow: var(--shadow);
+    transition: all 310ms;
+}
+
+.add-todo-item-btn:hover {
+    transition-timing-function: ease;
+    background: var(--button-hover);
+    transform: scale(1.12);
+}
+
+.add-todo-item-btn:active {
+    background: var(--button-active);
+}
